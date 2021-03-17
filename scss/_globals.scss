@@ -1,0 +1,79 @@
+
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin:0;
+    padding:0;
+    line-height: 1.3;
+    color:#fff;
+    font-weight: 400;
+}
+
+
+
+h1{
+    font-size:1.3rem;
+}
+
+h2{
+font-size:1rem;
+
+}
+
+p{
+    font-size:1rem;
+    padding:0;
+    margin:0;
+    
+}
+
+
+.margin-reset{
+    margin:6px !important;
+}
+
+.sm-padding-right{
+    padding-right:20px;
+}
+.xl-text{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.sm-text{
+    font-size:13px;
+}
+
+.sm-line-height{
+    line-height: 1.5;
+}
+.md-line-height{
+    line-height: 1.7;
+}
+
+
+.cyan{
+    color:$cyan;
+}
+
+.grayBlue{
+color:$grayishBlue;
+}
+
+.brightYellow{
+    color:$brightYellow;
+}
+
+.lightGrey{
+    color:$lightGrey;
+}
+
+.white{
+    color:#fff;
+}
